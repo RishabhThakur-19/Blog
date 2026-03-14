@@ -1,0 +1,26 @@
+<%-include("./partials/header2.ejs")  %>  
+<%-include("./partials/nav.ejs")  %>
+<div>
+    <a href="/reaction">Comments</a>
+      <div class="blogs content">
+        <h2>ALL COMMENTS</h2>
+        <div>
+            <% if(comments.length>0) {%>
+                <%comments.forEach(comment=>{%>
+                 <a  class='single' href="/comment/<%=comment._id%>">  
+               
+                <p  class="snippet"><%=comment.body%></p>
+            </a> 
+                <% }) %>
+           
+                
+             <% }else {%>
+             <h2>No Comments For Display</h2>
+             <% } %>
+        </div>
+    </div>
+</div>
+<%-include("./partials/footer.ejs") %>
+
+</body>
+</html>

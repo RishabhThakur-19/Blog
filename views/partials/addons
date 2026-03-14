@@ -1,0 +1,28 @@
+
+<%if(title=="All blogs"){%>
+    <li class="selected home"  id="home"><a  href="/"><h2>HOME</h2></a></li>
+    
+          <% }else {%>
+<li class="home"  id="home"><a  href="/"><h2>HOME</h2></a></li>
+            
+                  <% } %>
+
+
+
+
+<%if(title=="blog about"){%>
+     <li class=" selected about" ><a href="/about"><h2>ABOUT</h2></a></li>
+          <% }else {%>
+<li class="about" ><a href="/about"><h2>ABOUT</h2></a></li>
+            
+                  <% } %>
+
+
+
+<%if(title=="create-blog"){%>
+
+      <li class="selected create" ><a   href="/createblog"><h2>NEW BLOG</h2></a></li>
+          <% }else {%>
+
+              <li class="create" ><a   href="/createblog"><h2>NEW BLOG</h2></a></li>
+                  <% } %>

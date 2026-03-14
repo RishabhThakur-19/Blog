@@ -1,0 +1,21 @@
+{
+  "name": "assests",
+  "version": "1.0.0",
+  "main": "render.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.0.0",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "mongodb": "^7.1.0",
+    "mongoose": "^8.12.2",
+    "morgan": "^1.10.0",
+    "node.js": "^0.0.1-security"
+  }
+}

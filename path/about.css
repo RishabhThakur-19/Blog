@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+body{
+  max-width: auto;
+  height:100%;
+  margin: 20px 0px 0px 0px ;
+  padding: 0 20px;
+  font-family: 'Noto Serif', serif;
+  background-image: radial-gradient(circle at 21% 15%, hsla(210,0%,82%,0.1) 0%, hsla(210,0%,82%,0.1) 45%,transparent 45%, transparent 83%,transparent 83%, transparent 100%),radial-gradient(circle at 84% 23%, hsla(210,0%,82%,0.1) 0%, hsla(210,0%,82%,0.1) 68%,transparent 68%, transparent 93%,transparent 93%, transparent 100%),radial-gradient(circle at 7% 76%, hsla(210,0%,82%,0.1) 0%, hsla(210,0%,82%,0.1) 52%,transparent 52%, transparent 75%,transparent 75%, transparent 100%),radial-gradient(circle at 59% 77%, hsla(210,0%,82%,0.1) 0%, hsla(210,0%,82%,0.1) 87%,transparent 87%, transparent 93%,transparent 93%, transparent 100%),radial-gradient(circle at 59% 5%, hsla(210,0%,82%,0.1) 0%, hsla(210,0%,82%,0.1) 54%,transparent 54%, transparent 56%,transparent 56%, transparent 100%),linear-gradient(0deg, rgb(28, 29, 210),rgb(125, 129, 184));
+  height:100vh;
+}
+
+p, h1, h2, h3, a, ul{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: #fffcfc;
+}
+
+
+
+/* nav & footer styles */
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ffffff;
+  text-transform: uppercase;
+}
+nav ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+nav li{
+  list-style-type: none;
+  margin-left: 20px;
+}
+nav h1{
+  font-size: 3em;
+}
+nav p, nav a{
+  color: #ffffff;
+  font-weight: 300;
+}
+footer{
+  color: #fcfcfc;
+  text-align: center;
+  margin: 80px auto 20px;
+}
+h2{
+  margin-bottom: 40px;
+}
+h3{
+  text-transform: capitalize;
+  margin-bottom: 8px;
+}
+.content{
+  margin-left: 20px;
+}
+
+/* index styles */
+.blogs a{
+  display:block;
+  margin:40px 0;
+  padding-left:30px;
+  border-left: 6px solid crimson;
+
+}
+.blogs a:hover h2{
+  color:crimson;
+}
+.home:hover h2{ 
+  color:crimson;
+}
+.about:hover h2{ 
+  color:crimson;
+}
+.create:hover h2{ 
+  color:crimson;
+}
+
+
+/* details styles */
+.details{
+  width: 100%;
+  height:100%;
+  background-image: none;
+}
+
+/* create styles */
+.create-blog form{
+  max-width: 400px;
+  margin: 0 auto;
+}
+.create-blog input,
+.create-blog textarea{
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+}
+.create-blog label{
+  display: block;
+  margin-top: 24px;
+}
+textarea{
+  height: 120px;
+}
+.create-blog button{
+  margin-top: 20px;
+  background: crimson;
+  color: white;
+  padding: 6px;
+  border: 0;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+.tag{
+  color:rgb(250, 246, 246);
+}
