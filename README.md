@@ -9,3 +9,7 @@ Welcome to the Blog repository! This repository is intended for sharing thoughts
 
 ## Getting Started
 To get started, clone this repository and begin contributing your articles and thoughts!
+
+## Contact
+
+For any inquiries, please contact me at rishabh.2005thakurabcd@gmail.com
